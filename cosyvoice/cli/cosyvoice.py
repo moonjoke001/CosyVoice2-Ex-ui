@@ -17,7 +17,7 @@ from typing import Generator
 from tqdm import tqdm
 from math import ceil
 from hyperpyyaml import load_hyperpyyaml
-from modelscope import snapshot_download
+# from modelscope import snapshot_download
 import torch
 import torchaudio
 from cosyvoice.cli.frontend import CosyVoiceFrontEnd
